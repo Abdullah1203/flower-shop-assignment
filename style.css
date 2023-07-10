@@ -11,7 +11,7 @@ header {
   background: rgba(229, 84, 115, 0.1);
 }
 section {
-  padding: 128px 0px;
+  margin: 128px 0px;
 }
 .flex {
   display: flex;
@@ -59,7 +59,7 @@ section {
   font-size: 45px;
   font-weight: 900;
 }
-.logo span {
+span {
   color: #e55473;
 }
 .menu ul li {
@@ -117,8 +117,8 @@ section {
   align-items: center;
   text-align: center;
 }
-.image-boxes{
-    margin: 0px 12px;
+.image-boxes {
+  margin: 0px 12px;
 }
 .image-box {
   width: 464px;
@@ -126,8 +126,24 @@ section {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
-.image-box img{
-    margin-bottom: -520px;
+.image-box img {
+  margin-bottom: -522px;
+}
+.image-title {
+  padding-top: 32px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.box1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.box2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.box3{
+    background: rgba(71, 125, 17, 0.15);
 }
 
 /* MARGIN FOR SPECIFIC DIVS AND SECTIONS */
@@ -137,6 +153,45 @@ section {
 .instagram-sec,
 .latest-deal {
   margin: 0px 240px;
+}
+
+
+/* SUPPORT SECTION */
+
+.support {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px 0px;
+}
+.support-elements {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+.support-title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* HOT DEAL SECTION */
+.hot-deal {
+  background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 186px;
+}
+.hot-deal-img{
+    width: 318px;
+    padding: 100px;
+}
+.hot-deal-details{
+    width: 594px;
 }
 
 /* LATEST DEAL SECTION */
