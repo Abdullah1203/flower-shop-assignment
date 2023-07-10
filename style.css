@@ -19,11 +19,13 @@ section{
 .title{
     color: #272727;
     font-size: 40px;
+    font-weight: 800;
 }
 .description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     padding: 24px 0px;
+    line-height: 30px;
 }
 .btn{
     padding: 20px 43px;
