@@ -93,3 +93,10 @@ section{
     width: 635px;
 }
 
+
+/* LATEST DEAL SECTION */
+
+.deal-contaner{
+    margin: auto;
+    text-align: center;
+}
