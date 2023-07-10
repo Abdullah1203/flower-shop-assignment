@@ -10,35 +10,35 @@ body {
 header {
   background: rgba(229, 84, 115, 0.1);
 }
-section{
-    padding: 128px 0px;
+section {
+  padding: 128px 0px;
 }
 .flex {
   display: flex;
 }
-.title{
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
+.title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
 }
-.description{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    padding: 24px 0px;
-    line-height: 30px;
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  padding: 24px 0px;
+  line-height: 30px;
 }
-.btn{
-    padding: 20px 43px;
-    background-color: #E55473;
-    color: #fff;
-    border: none;
-    font-size: 20px;
-    border: 0;
-    border-radius: 8px;
-    cursor: pointer;
+.btn {
+  padding: 20px 43px;
+  background-color: #e55473;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
 }
-.btn:hover{
-    background-color: #d44161 ;
+.btn:hover {
+  background-color: #d44161;
 }
 /* NAVBAR SECTION */
 /* nav{
@@ -60,7 +60,7 @@ section{
   font-weight: 900;
 }
 .logo span {
-  color: #b71f36;
+  color: #e55473;
 }
 .menu ul li {
   list-style: none;
@@ -72,33 +72,76 @@ section{
   margin-right: 24px;
   text-decoration: none;
 }
+.fa-spa {
+  color: #e55473;
+}
 
 /* banner section */
-.banner{
-    align-items: center;
-    justify-content: left;
-    height: 100vh;
-    margin: 0px 240px;
-    background-image: url("asset/pngwing\ 10.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
+.banner {
+  align-items: center;
+  justify-content: left;
+  height: 100vh;
+  margin: 0px 240px;
+  background-image: url("asset/pngwing\ 10.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner-details{
+.banner-details {
   width: 708px;
 }
-.banner-title{
-    font-size: 80px;
-    font-weight: 800;
+.banner-title {
+  font-size: 80px;
+  font-weight: 800;
 }
-.banner-description{
-    padding: 32px 0px;
-    width: 635px;
+.banner-description {
+  padding: 32px 0px;
+  width: 635px;
 }
 
+/* FEATURED SECTION */
+.featured {
+  margin-top: 72px;
+}
+.featured-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.featured-details p {
+  width: 594px;
+  text-align: center;
+}
+.featured-img-container {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.image-boxes{
+    margin: 0px 12px;
+}
+.image-box {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.image-box img{
+    margin-bottom: -520px;
+}
+
+/* MARGIN FOR SPECIFIC DIVS AND SECTIONS */
+
+.featured-img-container,
+.support,
+.instagram-sec,
+.latest-deal {
+  margin: 0px 240px;
+}
 
 /* LATEST DEAL SECTION */
 
-.deal-contaner{
-    margin: auto;
-    text-align: center;
+.deal-contaner {
+  margin: auto;
+  text-align: center;
 }
