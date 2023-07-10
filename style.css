@@ -1,7 +1,95 @@
 /* global section */
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+section{
+    padding: 128px 0px;
+}
+.flex {
+  display: flex;
+}
+.title{
+    color: #272727;
+    font-size: 40px;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding: 24px 0px;
+}
+.btn{
+    padding: 20px 43px;
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #d44161 ;
+}
+/* NAVBAR SECTION */
+/* nav{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 163, 183)
+} */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #b71f3659;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.logo span {
+  color: #b71f36;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul a {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(39, 39, 39, 0.6);
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+/* banner section */
+.banner{
+    align-items: center;
+    justify-content: left;
+    height: 100vh;
+    margin: 0px 240px;
+    background-image: url("asset/pngwing\ 10.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-details{
+  width: 708px;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-description{
+    padding: 32px 0px;
+    width: 635px;
 }
 
