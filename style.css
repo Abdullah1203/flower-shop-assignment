@@ -220,6 +220,7 @@ span {
 }
 
 .instagram-sec-img-container {
+    justify-content: center;
   gap: 24px;
   padding: 24px 0px 128px 0px;
 }
@@ -229,6 +230,9 @@ span {
 /* LATEST DEAL SECTION */
 .latest-deal {
   background-image: url("asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  align-items: center;
   border-radius: 8px;
 }
 .deal-container {
