@@ -136,14 +136,14 @@ span {
   font-weight: 700;
   line-height: 35px;
 }
-.box1{
-    background: rgba(167, 33, 98, 0.15);
+.box1 {
+  background: rgba(167, 33, 98, 0.15);
 }
-.box2{
-    background: rgba(5, 151, 160, 0.15);
+.box2 {
+  background: rgba(5, 151, 160, 0.15);
 }
-.box3{
-    background: rgba(71, 125, 17, 0.15);
+.box3 {
+  background: rgba(71, 125, 17, 0.15);
 }
 
 /* MARGIN FOR SPECIFIC DIVS AND SECTIONS */
@@ -154,7 +154,6 @@ span {
 .latest-deal {
   margin: 0px 240px;
 }
-
 
 /* SUPPORT SECTION */
 
@@ -180,23 +179,56 @@ span {
 .hot-deal {
   background: rgba(229, 84, 115, 0.05);
 }
-.hot-deal-container{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 186px;
+.hot-deal-container {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 186px;
 }
-.hot-deal-img{
-    width: 318px;
-    padding: 100px;
+.hot-deal-img {
+  width: 318px;
+  padding: 100px;
 }
-.hot-deal-details{
-    width: 594px;
+.hot-deal-details {
+  width: 594px;
 }
 
+/* instagram section */
+
+.instagram-sec-details {
+  text-align: center;
+}
+.instagram-sec-details p {
+  width: 594px;
+  margin: auto;
+}
+
+.instagram-sec-img-container {
+  gap: 24px;
+  padding: 24px 0px 128px 0px;
+}
+.instagram-sec-image-boxes img {
+  width: 338px;
+}
 /* LATEST DEAL SECTION */
-
-.deal-contaner {
+.latest-deal {
+  
+  background-image: url("asset/Rectangle\ 9.png");
+  border-radius: 8px;
+}
+.deal-container{
+  width: 866px;
+  padding: 122px 0px;
   margin: auto;
   text-align: center;
+}
+
+.deal-container input[type="email"] {
+  width: 600px;
+  padding: 22px 22px;
+  border: 0;
+  border-radius: 8px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-right: 16px;
 }
